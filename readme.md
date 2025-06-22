@@ -1,6 +1,6 @@
-# Live Stream Secure
+# Secured Stream Cognito
 
-An Express.js server for secure live streaming of HLS video playlists and segments. This project uses AWS Cognito JWT token validation for authentication and generates signed URLs with expiration for video segments to ensure secure access. It also serves images securely with token validation.
+An Express.js server for secure live streaming of HLS video playlists, segments. This project uses AWS Cognito JWT token validation for authentication and generates signed URLs with expiration for video segments to ensure secure access. It also serves images securely with token validation.
 
 ## Features
 
@@ -18,7 +18,7 @@ An Express.js server for secure live streaming of HLS video playlists and segmen
 
    ```bash
    git clone <repository-url>
-   cd live-stream-secure
+   cd secured-stream-cognito
    ```
 
 2. Install dependencies:
