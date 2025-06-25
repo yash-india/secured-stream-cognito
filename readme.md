@@ -46,7 +46,7 @@ The application requires the following environment variables to be set:
 | `COGNITO_USER_POOL_ID`   | AWS Cognito User Pool ID                         |
 | `COGNITO_CLIENT_ID`      | AWS Cognito App Client ID                        |
 | `SEGMENT_SIGNING_SECRET` | Secret key used to sign video segment URLs       |
-| `TOKE_EXPIREY`           | Token expiration time in seconds for signed URLs |
+| `TOKEN_EXPIREY`           | Token expiration time in seconds for signed URLs |
 
 ## Usage
 

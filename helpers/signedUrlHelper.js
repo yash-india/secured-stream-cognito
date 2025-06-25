@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import { env } from "../config/env.js";
 
-const TTL = env.TOKE_EXPIREY;
+const TTL = env.TOKEN_EXPIREY;
 
 export function generateSignedSegmentUrl(filename, userId) {
   const exp = Math.floor(Date.now() / 1000) + TTL;
