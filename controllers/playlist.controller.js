@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import readline from "readline";
 import access from "../helpers/fileExistence.helper.js";
-import { generateSignedSegmentUrl } from "../helpers/signedUrlHelper.js";
+import { generateSignedSegmentUrl } from "../helpers/signedUrl.helper.js";
 import { logger } from "../utils/logger.js";
 
 const playListHandler = async (req, res) => {
